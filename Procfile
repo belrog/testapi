@@ -1,1 +1,1 @@
-web: ruby start.rb
+web: bundle exec rackup -p 4567 config.ru
