@@ -1,1 +1,1 @@
-web: bundle exec rackup -p 4567 config.ru
+web: bundle exec rackup -p process.env.PORT config.ru
